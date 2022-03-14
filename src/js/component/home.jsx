@@ -3,9 +3,6 @@ import Navbar from "./navbar.js";
 import Jumbotron from "./jumbotron.js";
 import Card from "./cardgroup.js";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
 //create your first component
 const Home = () => {
 	return (
@@ -30,7 +27,7 @@ const Home = () => {
 			</div>
 			<div className="container-fluid text-center bg-dark footer">
 				<p className="text-secondary h-100 ">
-					Copyright @ YourWebsite 2022
+					Copyright @ Felipe React Landing Page{" "}
 				</p>
 			</div>
 		</div>
